@@ -21,7 +21,7 @@ html {
   body {
     background-image: ("https://lh6.ggpht.com/QkSHLMjK1Vm7TwNL9EbBGoyVWmOdhxDf3FaA-OnyoR8tbRdrbgd1RvF4jc5xHJVXtA=h900") ;
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: #e5e5e5;
 }
 
 .container {
@@ -153,11 +153,13 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
+  background-color: #676767;
+  position: fixed;
 }
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  //border-bottom: 1px solid $lightGray;
 
   @include mobile {
     text-align: center;
@@ -166,8 +168,8 @@ img {
 
 .site-avatar {
   float: left;
-  width: 70px;
-  height: 70px;
+  width: 100px; //originally 70px
+  height: 100px;
   margin-right: 15px;
 
   @include mobile {
@@ -276,7 +278,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: #565656;
 }
 
 footer {
