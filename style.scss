@@ -18,10 +18,14 @@ html {
 }
 
 
-  body {
-    background-image: ("https://lh6.ggpht.com/QkSHLMjK1Vm7TwNL9EbBGoyVWmOdhxDf3FaA-OnyoR8tbRdrbgd1RvF4jc5xHJVXtA=h900") ;
+body {
   font: 18px/1.4 $helvetica;
   color: #e5e5e5;
+}
+
+.body2 {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/af/86/71/af86712f0251924323e955f30145894a.jpg") ;
+  position: fixed;
 }
 
 .container {
