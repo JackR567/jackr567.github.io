@@ -186,7 +186,7 @@ img {
 .site-avatar {
   float: left;
   width: 100px; //originally 70px
-  height: 100px;
+  height: auto; //"
   margin-right: 15px;
 
   @include mobile {
