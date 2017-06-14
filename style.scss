@@ -189,6 +189,7 @@ img {
   width: 100px; //originally 70px
   height: auto; //"
   margin-right: 15px;
+  margin-left: 20px;
 
   @include mobile {
     float: none;
