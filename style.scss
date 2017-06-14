@@ -69,12 +69,30 @@ div.post-div {
   padding: 0;
 }
 
+div.home-div {
+  display: inline-block;
+  height: 50%;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+}
+
 .post-div span.text-content {
   color: #e0e0e0;
   display: table; 
   left: 0;
   position: absolute;
   bottom: 0;
+  width: 100%;
+}
+
+.home-div span.text-content {
+  color: #e0e0e0;
+  display: table; 
+  left: 0;
+  position: absolute;
+  vertical-align: middle;
   width: 100%;
 }
 
@@ -87,7 +105,28 @@ div.post-div {
   object-fit: cover;
 }
 
+.home-img-top {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  z-index: -30000;
+  object-fit: cover;
+}
+
 .post-div span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: bottom;
+  bottom: 0;
+  font-size: 48px;
+
+  @include mobile {
+    font-size: 30px;
+  }
+}
+
+.home-div span.text-content span {
   display: table-cell;
   text-align: center;
   vertical-align: bottom;
